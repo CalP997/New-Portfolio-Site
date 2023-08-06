@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+	margin:0;
+	padding: 0;
+	font-family: 'Montserrat';
+	font-size: 28x;
+}
+.header{
+	min-height:15vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(15, 11, 95, 0.8),rgba(15, 11, 95, 0.8));
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+nav{
+	display: flex;
+	padding: 1% 5%;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav-links{
+	flex: 1;
+	text-align: right;
+}
+.nav-links ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+	color:white;
+}
+.nav-links ul li a{
+	color:white;
+}
+main{
+    background: #fff;
+    padding: 1em 1.4em;
+	text-align: left;
+}
+img[src$="images/home.png"]{
+    display: run-in;
+    height: 90;
+    width: 90%;
+}
+.contacts{
+	background: #e6e6ff;
+	display: flex;
+}
+.contact-l{
+	flex-basis: 60%;
+	padding: 40px 60px;
+	color: black;
+}
+.contact-r{
+	flex-basis: 60%;
+	padding: 40px 60px;
+	background: #4d4db3;
+	color: white;
+}
+.input-row{
+	justify-content: space-between;
+	padding: 20px
+}
+input{
+	width: 60%;
+}
+textarea{
+	width: 100%;
+	border: 1px solid #ccc;
+	otline: none;
+}
+tr td:first-child{
+	padding-right: 20px;
+}
+tr td{
+	padding-top:20px;
+	text-align:left;
+	font-size:18px;
+}
+a{
+	color: white;
+}
+img[src$="images/linkedin.png"]{
+    display: run-in;
+    height: 2;
+    width: 2%;
+	align-items: right;
+	padding-top:20px;
+	padding-left:10px;
+}
+img[src$="images/github.png"]{
+    display: run-in;
+    height: 2;
+    width: 2%;
+	align-items: right;
+	padding-top:20px;
+	padding-left:10px;
+}
+img[src$="images/Callum.png"]{
+    display: run-in;
+}
+iframe{
+	width: 100%;
+	aspect-ratio: 16 / 9;
+}
