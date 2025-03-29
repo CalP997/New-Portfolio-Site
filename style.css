@@ -7,7 +7,7 @@
 	font-size: 28x;
 }
 .header{
-	min-height:15vh;
+	min-height:11vh;
 	width: 100%;
 	background-image: linear-gradient(rgba(15, 11, 95, 0.8),rgba(15, 11, 95, 0.8));
 	background-position: center;
